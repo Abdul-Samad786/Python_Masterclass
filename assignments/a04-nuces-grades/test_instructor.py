@@ -8,7 +8,7 @@ epsilon = 1e-3
 
 def test_grade_float_1():
     score = 89.50
-    assert get_grade(score) == 'A+'
+    assert get_grade(score) == 'A'
 
 
 def test_grade_float_2():
